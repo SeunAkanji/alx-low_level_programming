@@ -2,7 +2,6 @@
 
 /**
  * main - Prints proper grammar
- * 
  *
  * Return: Always 0 (Beautiful)
  */
