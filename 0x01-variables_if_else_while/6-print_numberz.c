@@ -3,7 +3,7 @@
 /**
  * main - Prints numbers 0 to 9
  *
- * Return (Always Success)
+ * Return: Always (Success)
  */
 int main(void)
 {
@@ -17,6 +17,5 @@ int main(void)
 	putchar('\n');
 	
 	return (0);
-
 }
 
