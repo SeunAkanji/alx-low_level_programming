@@ -3,13 +3,13 @@
 /**
  * main - Prints a hexadecimal String
  *
- * Return Always (Success)
+ * Return: Always (Success)
  */
 int main(void)
 {
 	char c;
 
-	for (c = '0'; c<= '9'; c++)
+	for (c = '0'; c <= '9'; c++)
 	{
 		putchar(c);
 	}
