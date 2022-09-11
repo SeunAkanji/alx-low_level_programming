@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - Prints a series of numbers with commas
  *
- * Return: Always (Correct);
+ * Return: Always 0 (Correct);
  */
 int main(void)
 {
@@ -16,7 +18,7 @@ int main(void)
 		if (c != '9')
 		{
 			putchar(',');
-			putchar('');
+			putchar(' ');
 		}
 	}
 	
