@@ -2,23 +2,33 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
+ * main - Print possible combinations of two digit numbers
  *
- * Return: Always 0 (Correct)
+ * Return: Always return zero at the end (Correct)
  */
 int main(void)
 {
-	int d;
+	int i, p;
 
-	for (d = 0; d < 100; d++)
+	for (i = 0; i < 100; i++)
 	{
-		putchar((d / 10) + '0');
-		putchar((d % 10) + '0');
-		if (d != 99)
+		for (p = 0; p < 100; i++)
 		{
-			putchar(',');
-			putchar(' ');
+			if (p > i)
+			{
+				putchar((i / 10) + '0');
+				putchar((i % 10) + '0');
+				putchar(' ');
+				putchar((p / 10) + '0');
+				putchar((p % 10) + '0');
+				if (1 != 98)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
+		
 	}
 	putchar('\n');
 	return (0);
