@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * add - 10 times the alphabet
- * @num1: the first integer
- * @num2: the second integer entered
+ * add - Adds two integers.
+ * @num1: the first integer to be added
+ * @num2: the second integer to be added
  *
- * Return: The sum of the integers
+ * Return:The result of the addition.
  */
 int add(int num1, int num2)
 {
