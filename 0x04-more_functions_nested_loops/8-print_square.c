@@ -12,7 +12,7 @@ void print_sqaure(int size)
 
 	if (size > 0)
 	{
-		for (i = 0; i < size; ++1)
+		for (i = 0; i < size; ++i)
 		{
 			for (j = 0; j < size; j++)
 			{
