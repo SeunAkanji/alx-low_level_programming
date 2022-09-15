@@ -1,4 +1,4 @@
-#include <stdio.h>;
+#include <stdio.h>
 
 /**
  * main - prints the fisr 98 fibonacci
