@@ -6,7 +6,7 @@
  * @size: size of the sqaure
  */
 
-void print_sqaure(int size)
+void print_square(int size)
 {
 	int i, j;
 
