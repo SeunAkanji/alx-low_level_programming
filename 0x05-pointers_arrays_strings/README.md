@@ -1,1 +1,1 @@
-function that copies the string pointed to by src
+program that generates random valid passwords for the program
