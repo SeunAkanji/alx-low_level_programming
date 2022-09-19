@@ -1,1 +1,1 @@
-function that prints n elements of an array of integers, followed by a new line.
+function that copies the string pointed to by src
