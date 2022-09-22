@@ -1,1 +1,1 @@
-Header file
+function that prints an integer.
