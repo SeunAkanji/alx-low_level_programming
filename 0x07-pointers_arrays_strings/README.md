@@ -1,1 +1,1 @@
-More on pointers arrays and strings
+function that copies memory area.
