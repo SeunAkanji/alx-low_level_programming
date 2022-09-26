@@ -1,5 +1,5 @@
 #include "main.h"
- 
+
 /**
  * print_chessboard - print the second array of the chessboard
  * @a: Second array of characters
