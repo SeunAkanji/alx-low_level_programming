@@ -34,7 +34,7 @@ int evaluate_num(int num, int iterator)
  * Return: return 1 prime  - return 0 otherwise
  */
 
-int is _prime_number(int num)
+int is_prime_number(int num)
 {
 	int iterator;
 
