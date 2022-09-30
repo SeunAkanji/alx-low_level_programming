@@ -9,7 +9,7 @@
  * Return: Always 0 (Success)
  */
 
-in main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	(void) argv; /*ignore argv*/
 	printf("%i\n", argc - 1);
